@@ -1,10 +1,10 @@
 package com.pkkuw8.demo;
 
-public class SimpleClass {
+public class SimpleStringClass {
 
     private StringBuilder stringBuilder;
 
-    public SimpleClass(String str){
+    public SimpleStringClass(String str){
         stringBuilder = new StringBuilder(str);
     }
     public String rev(){
