@@ -13,7 +13,6 @@ public class SimpleRestController {
 
     @RequestMapping("/checkType")
     public String checkType(@RequestParam(value = "string", defaultValue = "test") String str){
-
-        return "";
+        return new SimpleStringClass(str).chackType();
     }
 }
